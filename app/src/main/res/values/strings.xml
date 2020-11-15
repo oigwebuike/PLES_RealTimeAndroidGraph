@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple BLE Terminal</string>
+    <string name="app_name">Real Time Viz</string>
     <string name="devices">Bluetooth LE Devices</string>
 
     <string name="location_permission_title">Location permission required</string>
@@ -7,6 +7,14 @@
 
     <string name="location_denied_title">Location permission denied</string>
     <string name="location_denied_message">As location permission has not been granted, this app cannot scan for Bluetooth LE devices.</string>
+
+
+    <string name="storage_permission_title">Storage permission required</string>
+    <string name="storage_permission_message">This App requires the permission for storage as recording will be saved in the device memory</string>
+
+    <string name="storage_denied_title">Storage permission denied</string>
+    <string name="storage_denied_message">As storage permission has not been granted, this app cannot store values in device memory.</string>
+
     <string name="pairing_request">PAIRING requested\n-> Perform pairing steps. Connect again</string>
 
 </resources>
